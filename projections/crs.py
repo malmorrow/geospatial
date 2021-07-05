@@ -1,5 +1,7 @@
 def dist(lat1, long1, lat2, long2):
     '''
+    This is effectively the Haversine but using GeoPandas and equal-distance CRS.
+    
     Populate the geometric data using a CRS that understands latitudes and longitudes:
     epsg:4326
     Convert the data into an equal-distance CRS. This is a global equal-distance CRS:
